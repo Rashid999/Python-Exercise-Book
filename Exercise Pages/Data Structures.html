@@ -1,0 +1,643 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Vrinda;
+	panose-1:0 0 4 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#954F72;
+	text-decoration:underline;}
+p
+	{margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US link=blue vlink="#954F72">
+
+<div class=WordSection1>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white'><strong><span style='font-size:13.0pt;
+font-family:"Helvetica",sans-serif'>1.</span></strong><span style='font-size:
+13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a Python program to
+create an Enum object and display a member name and value.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure.php#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+<em><span style='font-family:"Helvetica",sans-serif'>Sample data :</span></em><br>
+Afghanistan = 93<br>
+Albania = 355<br>
+Algeria = 213<br>
+Andorra = 376<br>
+Angola = 244<br>
+Antarctica = 672<br>
+Expected Output :<br>
+Member name: Albania<br>
+Member value: 355<br>
+<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure-exercise-1.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>2.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to iterate over an enum class and display individual member and
+their value.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure.php#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Expected Output:<br>
+Afghanistan = 93<br>
+Albania = 355<br>
+Algeria = 213<br>
+Andorra = 376<br>
+Angola = 244<br>
+Antarctica = 672<br>
+<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure-exercise-2.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>3.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to display all the member name of an enum class ordered by their
+values.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure.php#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Expected Output:<br>
+Country Name ordered by Country Code:<br>
+Afghanistan<br>
+Algeria<br>
+Angola<br>
+Albania<br>
+Andorra<br>
+Antarctica<br>
+<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure-exercise-3.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>4.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to get all values from an enum class.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure.php#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Expected output:<br>
+[93, 355, 213, 376, 244, 672]<br>
+<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure-exercise-4.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>5.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to count the most common words in a dictionary.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure.php#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Expected Output:<br>
+[('pink', 6), ('black', 5), ('white', 5), ('red', 4)]<br>
+<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure-exercise-5.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>6.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to find the class wise roll number from a tuple-of-tuples.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure.php#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Expected Output:<br>
+defaultdict(<class 'list'="">, {'VII': [1], 'V': [1, 2], 'VI': [1, 2, 3]})&nbsp;<br>
+<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure-exercise-6.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></class></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>7.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to count the number of students of individual class.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure.php#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+<em><span style='font-family:"Helvetica",sans-serif'>Sample data:</span></em><br>
+classes = (<br>
+('V', 1),<br>
+('VI', 1),<br>
+('V', 2),<br>
+('VI', 2),<br>
+('VI', 3),<br>
+('VII', 1),<br>
+)<br>
+Expected Output:<br>
+Counter({'VI': 3, 'V': 2, 'VII': 1})<br>
+<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure-exercise-7.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>8.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>Write a Python
+program to get the unique enumeration values.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure.php#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Expected Output:<br>
+Afghanistan = 93<br>
+Albania = 355<br>
+Algeria = 213<br>
+Andorra = 376<br>
+Angola = 244<br>
+<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure-exercise-8.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>9.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to create an instance of an OrderedDict using a given dictionary.
+Sort the dictionary during the creation and print the members of the dictionary
+in reverse order.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure.php#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Expected Output:&nbsp;<br>
+Angola 244<br>
+Andorra 376<br>
+Algeria 213<br>
+Afghanistan 93<br>
+Albania 355<br>
+In reverse order:<br>
+Albania 355<br>
+Afghanistan 93<br>
+Algeria 213<br>
+Andorra 376<br>
+Angola 244<br>
+<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure-exercise-9.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>10.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to group a sequence of key-value pairs into a dictionary of
+lists.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure.php#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Expected output:<br>
+[('v', [1, 3]), ('vi', [2, 4]), ('vii', [1])]&nbsp;<br>
+<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure-exercise-10.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>11.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to compare two unordered lists (not sets).&nbsp;<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure.php#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Expected Output: False<br>
+<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure-exercise-11.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>12.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to create an array contains six integers. Also print all the
+members of the array.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure.php#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Expected Output:<br>
+10<br>
+20<br>
+30<br>
+40<br>
+50<br>
+<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure-exercise-12.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>13.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to get the array size of types unsigned integer and float.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure.php#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Expected Output:<br>
+4&nbsp;<br>
+4<br>
+<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure-exercise-13.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>14.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to get an array buffer information.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure.php#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Expected Output:<br>
+Array buffer start address in memory and number of elements.<br>
+(25855056, 2)<br>
+<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure-exercise-14.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>15.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to get the length of an array.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure.php#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Expected Output:<br>
+Length of the array is:&nbsp;<br>
+5<br>
+<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure-exercise-15.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>16.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to convert an array to an ordinary list with the same items.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure.php#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Expected Output:<br>
+Original array:<br>
+array('b', [1, 2, 3, 4])<br>
+Array to list:<br>
+[1, 2, 3, 4]&nbsp;<br>
+<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure-exercise-16.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>17.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to convert an array to an array of machine values and return the
+bytes representation.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure.php#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Expected Output:<br>
+Original array:&nbsp;<br>
+A1: array('i', [1, 2, 3, 4, 5, 6])<br>
+Array of bytes: b'010000000200000003000000040000000500000006000000'&nbsp;<br>
+<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure-exercise-17.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>18.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to read a string and interpreting the string as an array of
+machine values.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure.php#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Expected Output:<br>
+array1: array('i', [7, 8, 9, 10])<br>
+Bytes: b'0700000008000000090000000a000000'&nbsp;<br>
+array2: array('i', [7, 8, 9, 10])<br>
+<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure-exercise-18.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>19.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to push three items into the heap and print the items from the
+heap.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure.php#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Expected Output:<br>
+('V', 1)<br>
+('V', 2)<br>
+('V', 3)<br>
+<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure-exercise-19.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>20.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to push three items into a heap and return the smallest item
+from the heap. Also Pop and return the smallest item from the heap.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure.php#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Expected Output:<br>
+Items in the heap:<br>
+('V', 1)<br>
+('V', 3)<br>
+('V', 2)&nbsp;<br>
+----------------------&nbsp;<br>
+The smallest item in the heap:<br>
+('V', 1)&nbsp;<br>
+----------------------<br>
+Pop the smallest item in the heap:<br>
+('V', 2)&nbsp;<br>
+('V', 3)&nbsp;<br>
+<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure-exercise-20.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>21.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to push an item on the heap, then pop and return the smallest
+item from the heap.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure.php#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Expected Output:<br>
+Items in the heap:<br>
+('V', 1)&nbsp;<br>
+('V', 3)&nbsp;<br>
+('V', 2)&nbsp;<br>
+----------------------<br>
+Using heappushpop push item on the heap and return the smallest item.<br>
+('V', 2)&nbsp;<br>
+('V', 3)&nbsp;<br>
+('V', 6)<br>
+<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure-exercise-21.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>22.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to create a heapsort, pushing all values onto a heap and then
+popping off the smallest values one at a time.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure.php#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Expected Output:<br>
+[10, 20, 20, 40, 50, 50, 60, 70, 80, 90, 100]<br>
+<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure-exercise-22.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>23.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to get the two largest and three smallest items from a dataset.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure.php#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Expected Output:<br>
+[100, 90]<br>
+[10, 20, 20]<br>
+<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure-exercise-23.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>24.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to locate the left insertion point for a specified value in
+sorted order.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure.php#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Expected Output:<br>
+4&nbsp;<br>
+2<br>
+<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure-exercise-24.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>25.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to locate the right insertion point for a specified value in
+sorted order.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure.php#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Expected Output:<br>
+3&nbsp;<br>
+2<br>
+<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure-exercise-25.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>26.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to insert items into a list in sorted order.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure.php#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Expected Output:<br>
+Original List:&nbsp;<br>
+[25, 45, 36, 47, 69, 48, 68, 78, 14, 36]&nbsp;<br>
+Sorted List:&nbsp;<br>
+[14, 25, 36, 36, 45, 47, 48, 68, 69, 78]<br>
+<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure-exercise-26.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>27.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;a Python
+program to create a queue and display all the members and size of the queue.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure.php#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Expected Output:<br>
+Members of the queue:<br>
+0 1 2 3&nbsp;<br>
+Size of the queue:<br>
+4&nbsp;<br>
+<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure-exercise-27.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>28.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to find whether a queue is empty or not.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure.php#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Expected Output:<br>
+True&nbsp;<br>
+False&nbsp;<br>
+<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure-exercise-28.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>29.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to create a FIFO queue.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure.php#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Expected Output:<br>
+0 1 2 3&nbsp;<br>
+<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure-exercise-29.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>30.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to create a LIFO queue.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure.php#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Expected Output:<br>
+3 2 1 0<br>
+<a
+href="https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure-exercise-30.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+</div>
+
+</body>
+
+</html>

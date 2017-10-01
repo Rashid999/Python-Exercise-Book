@@ -1,0 +1,700 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Vrinda;
+	panose-1:0 0 4 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#954F72;
+	text-decoration:underline;}
+p
+	{margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US link=blue vlink="#954F72">
+
+<div class=WordSection1>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white'><strong><span style='font-size:13.0pt;
+font-family:"Helvetica",sans-serif'>1.</span></strong><span style='font-size:
+13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a Python script to sort
+(ascending and descending) a dictionary by value.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'><a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-1.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>2.&nbsp;</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>Write a Python
+script to add a key to a dictionary.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>Sample
+Dictionary : {0: 10, 1: 20}<br>
+Expected Result : {0: 10, 1: 20, 2: 30}</span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'><a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-2.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>3.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python script to concatenate following dictionaries to create a new one.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>Sample
+Dictionary :&nbsp;<br>
+dic1={1:10, 2:20}&nbsp;<br>
+dic2={3:30, 4:40}&nbsp;<br>
+dic3={5:50,6:60}<br>
+Expected Result : {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}</span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'><a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-3.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>4.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python script to check if a given key already exists in a dictionary.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'><a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-4.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>5.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to iterate over dictionaries using for loops.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'><a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-5.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>6.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>Write a Python
+script to generate and print a dictionary that contains a number (between 1 and
+n) in the form (x, x*x).&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Sample Dictionary ( n = 5) :&nbsp;<br>
+Expected Output : {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}<br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-6.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>7.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python script to print a dictionary where the keys are numbers between 1 and 15
+(both included) and the values are square of keys.<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Sample Dictionary&nbsp;<br>
+{1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64, 9: 81, 10: 100, 11: 121,
+12: 144, 13: 169, 14: 196, 15: 225}<br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-7.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>8.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python script to merge two Python dictionaries.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-8.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>9.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to iterate over dictionaries using for loops.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-9.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>10.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to sum all the items in a dictionary.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-10.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>11.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to multiply all the items in a dictionary.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-11.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>12.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to remove a key from a dictionary.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-12.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>13.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to map two lists into a dictionary.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-13.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>14.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to sort a dictionary by key.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-14.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>15.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to get the maximum and minimum value in a dictionary.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-15.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>16.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>Write a Python
+program to get a dictionary from an object's fields.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-16.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>17.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to remove duplicates from Dictionary.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-17.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>18.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to check a dictionary is empty or not.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-18.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>19.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to combine two dictionary adding values for common keys.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+d1 = {'a': 100, 'b': 200, 'c':300}<br>
+d2 = {'a': 300, 'b': 200, 'd':400}<br>
+Sample output: Counter({'a': 400, 'b': 400, 'd': 400, 'c': 300})<br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-19.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>20.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to print all unique values in a dictionary.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Sample Data : [{&quot;V&quot;:&quot;S001&quot;}, {&quot;V&quot;:
+&quot;S002&quot;}, {&quot;VI&quot;: &quot;S001&quot;}, {&quot;VI&quot;:
+&quot;S005&quot;}, {&quot;VII&quot;:&quot;S005&quot;},
+{&quot;V&quot;:&quot;S009&quot;},{&quot;VIII&quot;:&quot;S007&quot;}]<br>
+Expected Output : Unique Values: {'S005', 'S002', 'S007', 'S001', 'S009'}<br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-20.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>21.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to create and display all combinations of letters, selecting
+each letter from a different key in a dictionary.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Sample data : {'1':['a','b'], '2':['c','d']}<br>
+Expected Output:&nbsp;<br>
+ac<br>
+ad<br>
+bc<br>
+bd<br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-21.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>22.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to find the highest 3 values in a dictionary.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-22.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>23.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to combine values in python list of dictionaries.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Sample data: [{'item': 'item1', 'amount': 400}, {'item': 'item2', 'amount':
+300}, {'item': 'item1', 'amount': 750}]<br>
+Expected Output: Counter({'item1': 1150, 'item2': 300})<br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-23.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>24.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to create a dictionary from a string.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Note: Track the count of the letters from the string.<br>
+Sample string : 'w3resource'<br>
+Expected output: {'3': 1, 's': 1, 'r': 2, 'u': 1, 'w': 1, 'c': 1, 'e': 2, 'o':
+1}<br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-24.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>25.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to print a dictionary in table format.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-25.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>26.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to count the values associated with key in a dictionary.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Sample data: = [{'id': 1, 'success': True, 'name': 'Lary'}, {'id': 2,
+'success': False, 'name': 'Rabi'}, {'id': 3, 'success': True, 'name': 'Alex'}]<br>
+Expected result: Count of how many dictionaries have success as True<br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-26.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>27.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to convert a list into a nested dictionary of keys.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-27.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>28.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to sort a list alphabetically in a dictionary.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-28.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>29.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to remove spaces from dictionary keys.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-29.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>30.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to get the top three items in a shop.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Sample data: {'item1': 45.50, 'item2':35, 'item3': 41.30, 'item4':55, 'item5':
+24}<br>
+Expected Output:&nbsp;<br>
+item4 55<br>
+item1 45.5<br>
+item3 41.3<br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-30.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>31.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to get the key, value and item in a dictionary.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-31.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>32.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to print a dictionary line by line.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-32.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>33.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to check multiple keys exists in a dictionary.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-33.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>34.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to count number of items in a dictionary value that is a list.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-34.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>35.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to sort Counter by value.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Sample data : {'Math':81, 'Physics':83, 'Chemistry':87}<br>
+Expected data: [('Chemistry', 87), ('Physics', 83), ('Math', 81)]<br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-35.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>36.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to create a dictionary from two lists without losing duplicate
+values.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Sample lists: ['Class-V', 'Class-VI', 'Class-VII', 'Class-VIII'], [1, 2, 2, 3]<br>
+Expected Output: defaultdict(&lt;class 'set'&gt;, {'Class-VII': {2},
+'Class-VI': {2}, 'Class-VIII': {3}, 'Class-V': {1}})<br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-36.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>37.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to replace dictionary values with their sum.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-37.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>38.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to convert a dictionary to OrderedDict.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-38.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:
+0in;line-height:18.0pt;background:white;color:rgba(0, 0, 0, 0.87);font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><strong><span style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>39.</span></strong><span
+style='font-size:13.0pt;font-family:"Helvetica",sans-serif'>&nbsp;Write a
+Python program to match key values in two dictionaries.&nbsp;<a
+href="https://www.w3resource.com/python-exercises/dictionary/#EDITOR"
+style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'></a><br>
+Sample dictionary: {'key1': 1, 'key2': 3, 'key3': 2}, {'key1': 1, 'key2': 2}<br>
+Expected output: key1: 1 is present in both x and y<br>
+<a
+href="https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-39.php"
+target="_blank" style='-webkit-tap-highlight-color: rgba(255, 255, 255, 0)'><span
+style='color:#448AFF'>Click me to see the sample solution</span></a></span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+</div>
+
+</body>
+
+</html>
